@@ -1,0 +1,36 @@
+{
+    "exclude": [
+        "(^js/vendor/)"
+    ],
+    "linters": {
+        "chmod": {
+            "type": "chmod"
+        },
+        "filename": {
+            "type": "filename"
+        },
+        "generated": {
+            "type": "generated"
+        },
+        "json": {
+            "type": "json",
+            "include": [
+                "(^\\.arcconfig$)",
+                "(^\\.arclint$)",
+                "(\\.json$)"
+            ]
+        },
+        "merge-conflict": {
+            "type": "merge-conflict"
+        },
+        "python": {
+            "type": "flake8",
+            "include": [
+                "(\\.py$)"
+            ]
+        },
+        "spelling": {
+            "type": "spelling"
+        }
+    }
+}
