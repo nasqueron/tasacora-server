@@ -3,17 +3,6 @@
  , | ,-| `-. ,-| |   | | |   ,-| 
  `-' `-^ `-' `-^ `-' `-' '   `-^ 
 
- This server allows you to run you own Tasacora web service.
-
- It relies on Python 3.5 and Django 2.2.
-
- Support
- =======
-
- * IRC Freeenode #tasacora
-   http://irc.lc/freenode/tasacora
-   (English, but most of us also speak French)
-
- * Community support on our forum
-   http://purl.net/NET/Nasqueron/Tasacora/Forum
-   (French, English)
+ This repository contains only initial configuration for a web service
+ running on Django, not currently under development.
+ 
